@@ -2,21 +2,41 @@
 
 Official PHP SDK for the Codexeron Marketplace.
 
+Build powerful integrations with the official Codexeron API.
+
 ---
 
 ## Features
 
-- Authentication
-- Products API
-- Orders API
-- Users API
-- Licenses API
+- Secure Authentication
+- Product Management
+- Order Management
+- User Management
+- License Verification
+- Search API
+- Webhooks
 
 ---
 
 ## Installation
 
-Coming Soon...
+```bash
+composer require codexeron/php-sdk
+```
+
+> **Note:** The package is currently under development and will be available in a future release.
+
+---
+
+## Quick Example
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+// Example usage will be available soon.
+```
 
 ---
 
@@ -29,3 +49,9 @@ https://github.com/Codexeron/documentation
 ## Website
 
 https://www.codexeron.com
+
+---
+
+## Status
+
+🚧 Under Development
