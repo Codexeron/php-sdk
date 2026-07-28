@@ -1,0 +1,39 @@
+{
+    "name": "codexeron/php-sdk",
+    "description": "Official PHP SDK for the Codexeron Marketplace.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "codexeron",
+        "php",
+        "sdk",
+        "marketplace",
+        "api"
+    ],
+    "homepage": "https://www.codexeron.com",
+    "support": {
+        "source": "https://github.com/Codexeron/php-sdk",
+        "issues": "https://github.com/Codexeron/php-sdk/issues"
+    },
+    "authors": [
+        {
+            "name": "Codexeron",
+            "homepage": "https://www.codexeron.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codexeron\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codexeron\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
